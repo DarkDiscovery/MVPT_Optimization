@@ -22,4 +22,4 @@ The model successfully converged to evaluate 5 years of daily pricing parameters
 | **DSSV Share** | `50.58%` | Confirms structural risk symmetry ($~50\%$) under standard variance minimization. |
 
 ### Portfolio Risk Distribution Profile
-![Portfolio Risk Distribution](risk_distribution.png)
+![Portfolio Risk Distribution](RiskDistribution.png)
