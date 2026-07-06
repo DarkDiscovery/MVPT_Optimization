@@ -21,5 +21,7 @@ The model successfully converged to evaluate 5 years of daily pricing parameters
 | **95% Expected Shortfall (ES)** | `-1.74%` | The average expected loss on days when the VaR threshold is breached. |
 | **DSSV Share** | `50.58%` | Confirms structural risk symmetry ($~50\%$) under standard variance minimization. |
 
+
+
 ### Portfolio Risk Distribution Profile
 ![Portfolio Risk Distribution](RiskDistribution.png)
