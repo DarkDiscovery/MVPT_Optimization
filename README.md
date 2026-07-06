@@ -6,7 +6,7 @@ This framework builds an end-to-end mathematical pipeline to construct long-only
 ## Methodology & Tech Stack
 * **Optimization Framework:** Applied Modern Portfolio Theory (MPT) via Sequential Least Squares Programming (`SLSQP`) solvers to execute dual-allocation goals:
   1. **Global Minimum Variance (GMV):** Minimizing raw annualized portfolio risk ($w^T \Sigma w$).
-  2. **Maximum Sharpe Ratio (MSR):** Maximizing risk-adjusted excess returns over the risk-free rate, benchmarking against the current **10-Year Indian Sovereign Bond Yield (~6.50%)**.
+  2. **Maximum Sharpe Ratio (MSR):** Maximizing risk-adjusted excess returns over the risk-free rate, benchmarking against the current **10-Year Indian Sovereign Bond Yield (~5.50%)**.
 * **Constraints & Boundary Space:** Enforced a strict long-only capital space ($0 \le w_i \le 1$) with full asset allocation equality rules ($\sum w_i = 1$).
 * **Tail-Risk Evaluation:** Modeled conditional expectations using 95% Value at Risk (VaR) and Expected Shortfall (ES) to evaluate true downside risk exposure.
 * **Asymmetry Diagnostics:** Computed Downside Semi-Variance (DSSV) normalized directly against downside observations ($N_d$) to map the directional volatility split of the optimized target portfolio.
